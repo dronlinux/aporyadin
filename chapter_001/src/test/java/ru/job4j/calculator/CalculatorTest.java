@@ -59,4 +59,14 @@ public class CalculatorTest {
         assertThat(result, is(expected));
     }
 
+    /**
+     * Division Test Zero.
+     */
+    @Test(expected = ArithmeticException.class)
+    public void whenDivAndSecondArgIsZeroThenRaiseException() {
+        Calculator calc = new Calculator();
+
+        calc.div(1D, 0);
+    }
+
 }
