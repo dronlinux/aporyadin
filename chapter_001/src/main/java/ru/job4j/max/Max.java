@@ -20,4 +20,17 @@ public class Max {
         return first <= second ? second : first;
     }
 
+    /**
+     * Max from three arguments.
+     *
+     * @param first  argument
+     * @param second argument
+     * @param third  argument
+     * @return max from 3 arguments
+     */
+    public int max(int first, int second, int third) {
+        return max(max(first, second), third);
+    }
+
+
 }

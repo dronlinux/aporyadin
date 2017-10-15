@@ -45,5 +45,14 @@ public class MaxTest {
         assertThat(result, is(2));
     }
 
+    /**
+     * Test when First LessSecond Three.
+     */
+    @Test
+    public void whenFirstLessSecondThree() {
+        Max maxim = new Max();
+        int result = maxim.max(1, 2, 3);
+        assertThat(result, is(3));
+    }
 
 }
