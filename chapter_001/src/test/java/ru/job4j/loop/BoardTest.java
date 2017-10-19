@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 //import static org.hamcrest.number.IsCloseTo.closeTo;
 
 /**
- * Board Test.
+ * Board  Test.
  *
  * @author Andrew A. Poryadin (dron600@gmail.com)
  * @version $Id$

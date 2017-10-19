@@ -10,7 +10,7 @@ package ru.job4j.loop;
 public class Board {
 
     /**
-     * String Chess Board.
+     * String  Chess Board.
      */
     private StringBuilder strChessBoard;
     /**
